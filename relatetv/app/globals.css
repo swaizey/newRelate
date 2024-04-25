@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --primary-color: #048dd5;
+    --primary-color-light: rgba(16, 162, 230, .4);
+    --secondary-color:#b5de00;
+    --light-blue:rgba(43, 206, 218, 0.2);
+}
+body{
+    display: grid;
+    grid-template-rows: 3rem auto 3rem;
+    height: 100vh;
+}
+.home{
+    overflow-y: scroll;
+}
+.home::-webkit-scrollbar{
+    width: 0.40rem;
+}
+
+.home::-webkit-scrollbar-thumb{
+    background-color: rgb(10, 49, 10);
+}
+.home::-webkit-scrollbar-track{
+    background: var(--light-blue);
+}

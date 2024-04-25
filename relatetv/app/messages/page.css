@@ -1,0 +1,28 @@
+
+.inboxContainer{
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.inboxContainer .messanger{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    margin-bottom: 1rem;
+}
+.messanger img{
+    height: 50px;
+    border-radius: 50%;
+}
+.message{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.time{
+    font-size: 10px;
+    color: rgb(204, 201, 201);
+
+}

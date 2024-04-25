@@ -1,0 +1,77 @@
+
+.guyReg{
+    overflow-y: scroll;
+    background-color:rgb(2, 31, 11);
+}
+.guyReg::-webkit-scrollbar{
+    width: .7rem;
+}
+
+.guyReg::-webkit-scrollbar-thumb{
+    background-color: rgb(2, 31, 11);
+}
+.guyReg::-webkit-scrollbar-track{
+    background: var(--light-blue);
+}
+.guyReg .form input{
+    padding: 3px;
+    border-bottom: 1px solid lightgray;
+    border-radius: .1rem;
+    outline: none;
+    margin-bottom: 8px;
+}
+.guyReg .form input::placeholder{
+    font-size: 14px;
+}
+.guyReg .form{
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 15px 0;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guyReg .form .pic{
+    width: 100px;
+    height: 100px;
+    
+}
+.guyReg .form .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.guyReg .form ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:50%;
+}
+.guyReg .form ul li{
+    margin: 0 6px;
+    text-decoration: underline;
+
+}
+.guyReg button{
+    width: 80%;
+    padding: 5px 0;
+    margin: 10px 0;
+    color: white;
+}
+#fileUpload{
+    display: none;
+}
+.imgUpload{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.imgUpload .progress, .imgUpload .pic{
+    position: absolute;
+}

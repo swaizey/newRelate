@@ -1,0 +1,47 @@
+.formGender{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.formGender p{
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+.error{
+    background-color: red;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+.formGender p a{
+    text-decoration: underline;
+}
+.formGender form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formGender form select{
+    font-size: 19px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--primary-color);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.formGender .genderBtn{
+    margin-top: 5rem;
+}
+.formGender button{
+    background-color: var(--primary-color);
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    color:white;
+
+}

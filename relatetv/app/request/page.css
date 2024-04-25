@@ -1,0 +1,50 @@
+.form{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form form{
+    border: 1px solid rgb(236, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form form textarea{
+    height: 7rem;
+    border: 1px solid rgb(236, 230, 230) ;
+    padding: 10px;
+    width: 88%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.form form input{
+    border: 1px solid rgb(236, 230, 230) ;
+    padding: 7px;
+    width: 88%;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.form form button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    width: 88%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.form form button[disabled]{
+    background-color: rgba(34, 5, 199, 0.7);
+}
+
+.form form textarea:focus, .form input:focus{
+    outline: 1px solid var(--primary-color);
+}
